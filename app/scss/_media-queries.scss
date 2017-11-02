@@ -1,0 +1,41 @@
+@media only screen and (max-width: 575px){
+  html {font-size: 31.5%}
+  #input-container,
+  #result-container{
+    width: 100%;
+    height: 50%;
+    textarea,
+    #result{
+      padding: 2.5%;
+      margin: 1.25% 2.5%;
+    }
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:991px){
+  html {font-size: 46.5%}
+  #input-container,
+  #result-container{
+    width: 50%;
+    height: 100%;
+    textarea,
+    #result{
+      padding: 2.5%;
+      margin: 2.5%;
+    }
+  }
+}
+
+@media only screen and (min-width:992px){
+  html {font-size: 62.5%}
+  #input-container,
+  #result-container{
+    width: 50%;
+    height: 100%;
+    textarea,
+    #result{
+      padding: 2.5%;
+      margin: 2.5%;
+    }
+  }
+}
